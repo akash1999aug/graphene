@@ -5,7 +5,7 @@ const styles = {
     margin: "136px",
     gap: "30px",
   },
-  leftWrapper: { display: "flex", flexDirection: "column" },
+  leftWrapper: { width: "50%", display: "flex", flexDirection: "column" },
   headingWrapper: { width: "233px", alignSelf: "end", marginBottom: "53px" },
 
   meetHeading: {
@@ -75,7 +75,6 @@ const styles = {
     fontFamily: "Gill Sans",
     fontSize: "15px",
     lineHeight: "20px",
-    // letterSpacing: "10px",
     color: "#333333",
   },
   iconWrapper: {

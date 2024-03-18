@@ -14,7 +14,7 @@ const Slide = ({
     <MuiSlide
       direction={direction}
       in={dataRef?.isIntersecting}
-      timeout={2000}
+      timeout={3000}
       mountOnEnter
       unmountOnExit
       {...rest}

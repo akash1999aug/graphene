@@ -27,7 +27,11 @@ const MeetCommunity = () => {
         </Box>
       </Box>
 
-      <Box>
+      <Box
+        sx={{
+          width: "50%",
+        }}
+      >
         <InfoCard
           flexDirection="row-reverse"
           customStyles={styles.rightTopInfoCard}
@@ -47,7 +51,6 @@ const InfoCard = ({ flexDirection = "row", customStyles = {} }) => {
         <Box
           sx={{
             display: "flex",
-            // alignItems: "center",
             gap: "20px",
             flexDirection,
             ...customStyles,
